@@ -67,7 +67,7 @@ h1 {
   margin: 0 0.375rem;
 }
 
-.footer {
+footer {
   display: flex;
   justify-content: flex-end;
 }
