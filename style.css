@@ -30,6 +30,9 @@ h1 {
   align-items: center;
   justify-content: center;
   flex: 1;
+  padding-left: max(0, env(safe-area-inset-left));
+  padding-right: max(0, env(safe-area-inset-right));
+  padding-bottom: max(0, env(safe-area-inset-bottom));
 }
 
 .card {
@@ -114,7 +117,7 @@ svg:not(:root) {
   overflow: hidden;
 }
 
-@media (min-width: 26.375rem)  {
+@media (min-width: 481px)  {
   .card {
     width: 26.25rem;
     height: 15rem;
